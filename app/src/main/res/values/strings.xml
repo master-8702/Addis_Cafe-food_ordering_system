@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Food ordering System2</string>
+    <string name="new_app_name">Addis Cafe</string>
+
+
+    <string name="enkulal">Enkulal</string>
+    <string name="firfir">Firfir</string>
+    <string name="full">Full</string>
+    <string name="pasta">Pasta</string>
+    <string name="specialfirfir">Special Firfir</string>
+    <string name="specialfull">Special Full</string>
+
+    <string name="keywet">KeyWet</string>
+    <string name="Misr">Misir</string>
+    <string name="tegabino">Tegabino</string>
+    <string name="mekoreni">Mekoreni</string>
+    <string name="timatim">Timatim</string>
+    <string name="beyaynet">Beyaynet</string>
+
+    <string name="pizza">Pizza</string>
+    <string name="atikilt">Atikilt</string>
+    <string name="burger">Burger</string>
+    <string name="ruz">Ruz</string>
+    <string name="shiro">Shiro</string>
+    <string name="alichawet">Alicha Wet</string>
+
+    <string name="sandwich">Sandwich</string>
+    <string name="chips">Chips</string>
+    <string name="sanbusa">Sanbusa</string>
+    <string name="cookies">Cookies</string>
+    <string name="biscuit">Biscuit</string>
+    <string name="cake">Cake</string>
+
+    <string name="avocado">Avocado Juice</string>
+    <string name="mango">Mango Juice</string>
+    <string name="ananas">Ananas Juice</string>
+    <string name="zeytun">Zeytun Juice</string>
+    <string name="papaya">Papaya Juice</string>
+    <string name="spris">Spris Juice</string>
+
+    <string name="addiscafe">Addis Cafe</string>
+
+
+</resources>

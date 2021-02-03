@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="114dp"
+        android:layout_y="21dp"
+        android:text="Dinner"
+        android:textSize="24sp" />
+
+    <!--<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableRow>
+
+        </TableRow>
+
+    </TableLayout>-->
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="110dp"
+        android:text="@string/pizza"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="155dp"
+        android:text="@string/atikilt"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="200dp"
+        android:text="@string/burger"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="245dp"
+        android:text="@string/ruz"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="290dp"
+        android:text="@string/shiro"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="335dp"
+        android:text="@string/alichawet"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="103dp"
+        android:contentDescription="@string/pizza"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="148dp"
+        android:contentDescription="@string/atikilt"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="193dp"
+        android:contentDescription="@string/burger"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="238dp"
+        android:contentDescription="@string/ruz"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="283dp"
+        android:contentDescription="@string/shiro"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="328dp"
+        android:contentDescription="@string/alichawet"
+        android:spinnerMode="dropdown" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="110dp"
+        android:text="60" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="155dp"
+        android:text="50" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="200dp"
+        android:text="75" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="245dp"
+        android:text="40" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="290dp"
+        android:text="40" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="335dp"
+        android:text="50" />
+
+    <Button
+        android:id="@+id/btnokdinner"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="516dp"
+        android:text="Ok" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="66dp"
+        android:text="Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="66dp"
+        android:text="Price"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="62dp"
+        android:text="Quantity"
+        android:textStyle="bold" />
+</android.widget.AbsoluteLayout>

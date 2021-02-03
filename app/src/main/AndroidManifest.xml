@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibrocorp.foodorderingsystem2">
+
+   <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/food_ordering_system2_logo1"
+        android:label="@string/new_app_name"
+        android:roundIcon="@drawable/food_ordering_system2_logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity android:name=".home_page" android:label="@string/app_name">
+
+</activity>
+        <activity android:name=".user_registration" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".breakfast" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".lunch" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".dinner" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".snacks" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".drinks" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".dinlunch" android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".order_detail" android:label="@string/app_name">
+
+        </activity>
+    </application>
+
+</manifest>
